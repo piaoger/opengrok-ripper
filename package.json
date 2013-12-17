@@ -1,0 +1,23 @@
+{
+    "name": "opengrok-ripper",
+    "description": "opengrok-ripper",
+    "version": "0.1.0",
+    "keywords": ["opengrok", "ripper"],
+    "author": "Piaoger Gong <piaogerbeta@gmail.com>",
+    "contributors": [
+        {
+            "name": "Piaoger Gong",
+            "email": "piaogerbeta@gmail.com"
+        }
+    ],
+    "main": "./index.js",
+    "engines": {
+        "node": ">=0.4.7"
+    },
+    "devDependencies": {
+        "nodeunit": "*"
+    },
+    "scripts": {
+        "test": "node --expose_gc ./node_modules/nodeunit/bin/nodeunit test"
+    }
+}
