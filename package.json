@@ -15,7 +15,8 @@
         "node": ">=0.4.7"
     },
     "dependencies": {
-        "jsdom": "0.8.9"
+        "jsdom": "0.8.9",
+        "mkdirp":"0.3.5"
     },
     "devDependencies": {
         "nodeunit": "*"
